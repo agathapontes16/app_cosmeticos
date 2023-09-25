@@ -1,0 +1,75 @@
+/* Reset de estilos para remoção de margens e preenchimentos padrão */
+body, h1, h2, p, ul, li, button {
+    margin: 6;
+    padding: 1;
+}
+
+/* fonte do cabeçalho */
+header {
+    background-color: #d64810;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ /* cor do menu  */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+/* Estilos para os produtos */
+.produto {
+    border: 3px solid #ec5d0b;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    max-width: 10%;
+    height: auto;
+}
+
+.produto h2 {
+    font-size: 10px;
+    margin-top: 10px;
+}
+.produto p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.produto .preco {
+    font-size: 18px;
+    color: #e44d26; /* Cor do preço */
+    margin-top: 10px;
+}
+
+.botao-comprar {
+    background-color: #e44d26; /* Cor do botão */
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botao-comprar:hover {
+    background-color: #19d113; /* Cor do botão de compra (hover) */
+}
